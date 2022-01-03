@@ -16,26 +16,32 @@ React app to practice using Firebase v9 CRUD Operations, Context, React Hooks, E
 
 __Main Features__:
 
-* - use email to sign-in/register or google auth to sign-in
-* - private messaging (privateChat)
-* - community messaging (globalChat)
-* - profile:
+* use email to sign-in/register or google auth to sign-in
+
+* private messaging (privateChat)
+
+* community messaging (globalChat)
+
+* profile:
 - edit title, description
 - start private message button (if not own profile)
 - signout button (if own profile)
 - edit button (if own profile)
 - show 3 latest posts if any
-* - home: 
+
+* home: 
 - shows posts from all subreddits the user is subscribed to
 - searchbar to search for subreddits, users
 - list of all subscribed subreddits; clickable
 - create new subreddit button which enables a modal
-* - subreddit: 
+
+* subreddit: 
 - button for a user to subscribe/unsubscribe to that subreddit
 - button to create new post in that subreddit
 - subreddit title, description, image, number of total subscribers, show Moderator's name (the user who created it; only can own one subreddit per user)
 - can delete subreddit (if own subreddit)
-* - posts: 
+
+* posts: 
 - commenting, likes, dislikes, delete (if own post or own subReddit)
 - can delete posts (if own post or own subreddit)
 
