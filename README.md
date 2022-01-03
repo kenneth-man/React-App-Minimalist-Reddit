@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# React App - Minimalist Reddit Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React app to practice using Firebase v9 CRUD Operations, Context, React Hooks, ES6+ Javascript, Functional components
 
-## Available Scripts
+![Alt text](./src/Res/Images/sampleScreenshot1.png?raw=true "Login")
+![Alt text](./src/Res/Images/sampleScreenshot2.png?raw=true "Register")
+![Alt text](./src/Res/Images/sampleScreenshot3.png?raw=true "SubReddit")
+![Alt text](./src/Res/Images/sampleScreenshot4.png?raw=true "Profile") 
+![Alt text](./src/Res/Images/sampleScreenshot5.png?raw=true "GlobalChat") 
+![Alt text](./src/Res/Images/sampleScreenshot6.png?raw=true "PrivateChat") 
+![Alt text](./src/Res/Images/sampleScreenshot7.png?raw=true "SearchBar") 
+![Alt text](./src/Res/Images/sampleScreenshot8.png?raw=true "Modal") 
 
-In the project directory, you can run:
+<br/>
+<br/>
 
-### `npm start`
+__Main Features__:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* - use email to sign-in/register or google auth to sign-in
+* - private messaging (privateChat)
+* - community messaging (globalChat)
+* - profile:
+- edit title, description
+- start private message button (if not own profile)
+- signout button (if own profile)
+- edit button (if own profile)
+- show 3 latest posts if any
+* - home: 
+- shows posts from all subreddits the user is subscribed to
+- searchbar to search for subreddits, users
+- list of all subscribed subreddits; clickable
+- create new subreddit button which enables a modal
+* - subreddit: 
+- button for a user to subscribe/unsubscribe to that subreddit
+- button to create new post in that subreddit
+- subreddit title, description, image, number of total subscribers, show Moderator's name (the user who created it; only can own one subreddit per user)
+- can delete subreddit (if own subreddit)
+* - posts: 
+- commenting, likes, dislikes, delete (if own post or own subReddit)
+- can delete posts (if own post or own subreddit)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<br/>
+<br/>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+NPM packages used: firebase, react-lazy-loading-image-component, react-router-dom
